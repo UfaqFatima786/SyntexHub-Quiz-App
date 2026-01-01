@@ -20,8 +20,19 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     animation: fadeIn 0.5s ease;
+    border: 3px solid rgb(255, 0, 0);
 }
-
+.quiz-container:hover {
+    background: #302f2f;
+    width: 400px;
+    height: 450px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(66, 43, 43, 0.2);
+    animation: fadeIn 0.5s ease;
+    cursor: pointer;
+    transition: 0.5s;
+}
 h2 {
     margin-bottom: 15px;
     color: #ffffff;
@@ -49,7 +60,7 @@ button {
     padding: 10px;
     background: #667eea;
     color: #fff;
-    border: none;
+    border: 3px solid rgb(19, 0, 122);
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
